@@ -1,0 +1,7 @@
+bin/
+obj/
+.vs/
+
+# Local config carries infra identifiers (secret ARN, host); keep it out of git.
+# Copy appsettings.template.json -> appsettings.json and fill it in.
+appsettings.json
